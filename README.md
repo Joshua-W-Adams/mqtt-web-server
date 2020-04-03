@@ -1,6 +1,6 @@
-# commonjs-boilerplate
+# mqtt-web-server
 
-A template for creating nodejs / commonjs modules
+Express.js web server with MQTT protocol functionality
 
 ## Getting Started
 
@@ -26,4 +26,10 @@ npm install
 
 ```
 gulp
+```
+
+5. MQTT web server now available on localgost
+
+```
+http://localhost
 ```

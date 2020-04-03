@@ -1,25 +1,28 @@
 {
-  "name": "commonjs-boilerplate",
+  "name": "mqtt-web-server",
   "version": "1.0.0",
-  "description": "A template for creating nodejs / commonjs modules",
+  "description": "Express.js web server with MQTT protocol functionality",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Joshua-W-Adams/commonjs-boilerplate.git"
+    "url": "git+https://github.com/Joshua-W-Adams/mqtt-web-server.git"
   },
   "author": "Joshua Adams",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Joshua-W-Adams/commonjs-boilerplate/issues"
+    "url": "https://github.com/Joshua-W-Adams/mqtt-web-server/issues"
   },
-  "homepage": "https://github.com/Joshua-W-Adams/commonjs-boilerplate#readme",
+  "homepage": "https://github.com/Joshua-W-Adams/mqtt-web-server#readme",
   "devDependencies": {
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.1",
     "gulp": "^4.0.2",
     "gulp-eslint": "^6.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

@@ -9,6 +9,7 @@
 
 const gulp = require('gulp');
 const eslint = require('gulp-eslint');
+const express = require('./src/js/app.js');
 
 /* ================================= Settings =============================== */
 
@@ -47,5 +48,6 @@ gulp.task('jslint', function (done) {
  */
 
  exports.default = function () {
+	 express.init();
    gulp.watch(paths.inputs.js, gulp.series('jslint'));
  };
