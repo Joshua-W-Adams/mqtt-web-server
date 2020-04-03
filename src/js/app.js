@@ -11,6 +11,8 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 
+const mqtt = require('./mqtt.js');
+
 /* ================================ Variables =============================== */
 
 // N/A
@@ -77,6 +79,8 @@ function init() {
     // Return the requested file to the client
     _getFile(filename, filepath, res);
   })
+	// configure mqtt connections
+	mqtt.init();
   return httpServer;
 }
 
